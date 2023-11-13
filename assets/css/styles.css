@@ -450,7 +450,6 @@ a {
 }
 /* quantity            */
 .quantity {
-  background-color: #1ebfc1;
   padding: 50px 0;
   margin-top: 165px;
 }
@@ -479,4 +478,119 @@ a {
   color: #767e7e;
   font-size: 1.8rem;
   line-height: normal;
+}
+/* feedback         */
+.feedback {
+  padding: 50px 0;
+  margin-top: 164px;
+}
+.feedback .body {
+  height: 481px;
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+.feedback .info {
+  width: 419px;
+  height: 407px;
+}
+.feedback blockquote {
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5; /* 150% */
+}
+.feedback .students {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+}
+.feedback .students .dash {
+  margin-right: 5px;
+  width: 8px;
+  height: 2px;
+  background-color: #070707;
+}
+.feedback .students .desc {
+  color: #767e7e;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.feedback .students .desc span {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.feedback .controls {
+  margin-top: 52px;
+  display: flex;
+  gap: 30px;
+}
+.feedback .control-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #2ac9bf;
+  color: #2ac9bf;
+  background-color: transparent;
+}
+.feedback .control-btn:hover {
+  background-color: #2ac9bf;
+  color: #fff;
+}
+
+.feedback .avatar-feedback {
+  height: 481px;
+  width: 679px;
+}
+.avatar-feedback .content {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.avatar-feedback .content .avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+}
+.avatar-feedback .content .avatar-1 {
+  top: 107px;
+  right: 171px;
+  width: 235px;
+  height: 235px;
+}
+.avatar-feedback .content .avatar-2 {
+  top: 0;
+  right: 443px;
+  width: 92px;
+  height: 92px;
+}
+.avatar-feedback .content .avatar-3 {
+  width: 110px;
+  height: 110px;
+  top: 19px;
+  right: 0;
+}
+.avatar-feedback .content .avatar-4 {
+  width: 78px;
+  height: 78px;
+  left: 0;
+  top: 258px;
+}
+.avatar-feedback .content .avatar-5 {
+  width: 78px;
+  height: 78px;
+  bottom: 0;
+  right: 389px;
+}
+.avatar-feedback .content .avatar-6 {
+  width: 78px;
+  height: 78px;
+  bottom: 29px;
+  right: 32px;
 }
