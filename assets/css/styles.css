@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* common */
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  min-width: 186px;
+  line-height: 68px;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.main-content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 24px);
+}
+a {
+  text-decoration: none;
+}
+/* end common */
+/* header */
+.header {
+  background-color: #fff;
+}
+.header.fixed {
+  position: sticky;
+  z-index: 1;
+  top: -36px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 52px 0 16px;
+}
+.header .nav ul {
+  display: flex;
+}
+.nav {
+  margin-left: auto;
+}
+.header .action {
+  margin-left: 133px;
+}
+.header .btn_sign-up {
+  padding: 12px 23px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  color: #1ebfc1;
+  /* text-align: center; */
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.btn_sign-up:hover {
+  color: #fff;
+  background-color: #1ebfc1;
+}
+.header .btn_sign-in {
+  color: #494949;
+  font-size: 1.6rem;
+  padding: 12px 24px;
+}
+.btn_sign-in:hover {
+  opacity: 0.8;
+}
+
+.nav a {
+  padding: 10px 20px;
+  color: #2f3a3b;
+  font-size: 16px;
+}
+.nav a:hover,
+.nav .active {
+  color: #2f3a3b;
+  text-shadow: 0.8px 0 0 currentColor;
+  /* font-size: 1.6rem;
+  font-weight: 600; */
+}
+/* hero */
+.hero {
+  padding: 34px 0 79px 0;
+}
+.hero .body {
+  display: flex;
+}
+.hero .content-block {
+  padding: 93px 0;
+  width: 45%;
+}
+.content-block .intro {
+  color: #767e7e;
+  font-size: 1.4rem;
+}
+.content-block .heading {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.16; /* 116.129% */
+}
+.content-block .desc {
+  width: 374px;
+  margin-top: 46px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  line-height: 1.78; /* 177.778% */
+}
+.content-block .desc span {
+  display: inline-block;
+}
+.content-block .cta-group {
+  margin-top: 52px;
+}
+.content-block .watch-video {
+  cursor: pointer;
+  margin-left: 50px;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  box-shadow: 0px 22px 50px 0px #0000000d;
+}
+.content-block .watch-video:hover {
+  opacity: 0.6;
+}
+/* media */
+.hero .media-block {
+  width: 55%;
+  position: relative;
+  height: 631px;
+}
+
+.hero .media-block .img {
+  position: absolute;
+  right: 0;
+  width: 576px;
+  height: 631px;
+  object-fit: cover;
+  background-color: #e0f7f6;
+}
+/* <!-- course-khoá học --> */
+.media-block .courses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 25px;
+  top: 149px;
+  width: 157px;
+  height: 75px;
+  padding: 17px 25px 18px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.media-block .courses .book-course {
+  position: relative;
+  margin-right: 16px;
+  width: 36px;
+  height: 40px;
+}
+.media-block .book-course .line-book-sourse {
+  position: absolute;
+  top: 28px;
+  right: 4px;
+  bottom: 8px;
+  left: 4px;
+  width: 28px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 999px;
+}
+.media-block .courses .title {
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* schedules - lịch trình*/
+.media-block .schedules {
+  position: absolute;
+  left: 0;
+  top: 453px;
+  width: 124px;
+  height: 132px;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.media-block .schedules .title {
+  margin: 16px 35px 0;
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.media-block .schedules .rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+}
+.media-block .schedules .rating::after {
+  content: "";
+  background-color: #edf1f5;
+  width: 26px;
+  height: 6px;
+  border-radius: 3px;
+  margin-top: 16px;
+}
+.schedules .rating .item {
+  border-radius: 3px;
+  margin-bottom: 12px;
+  width: 74px;
+  height: 6px;
+  background-color: #edf1f5;
+}
+.schedules .rating .item:last-child {
+  margin: 0;
+}
+.schedules .item .rate1 {
+  width: 53%;
+  height: 100%;
+  background-color: #fb9899;
+  border-radius: 3px;
+}
+.schedules .item .rate2 {
+  width: 51px;
+  height: 100%;
+  background-color: #fb9899;
+  border-radius: 3px;
+}
+.schedules .item .rate2 {
+  width: 51px;
+  height: 100%;
+  background-color: #fb9899;
+  border-radius: 3px;
+}
+.schedules .item .rate3 {
+  width: 33px;
+  height: 100%;
+  background-color: #fb9899;
+  border-radius: 3px;
+}
+/* list-active-student-sinh viên tích cực */
+.hero .active-students {
+  position: absolute;
+  top: 500px;
+  right: 45px;
+  width: 207px;
+  height: 90px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.active-students .content {
+  padding: 19px 35px;
+}
+.active-students .avatar-block {
+  margin-top: 8px;
+  display: flex;
+}
+.active-students .avatar-block .avatar {
+  margin-left: -7px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.active-students .avatar-block .avatar:nth-child(1) {
+  margin-left: 0;
+}
+.active-students .avatar-block .avatar-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1ebfc1;
+}
+.active-students .avatar-quantity span {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.active-students .title {
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+}
