@@ -365,7 +365,7 @@ a {
 /* popular                          */
 .popular {
   margin-top: 30px;
-  padding: 50px 0;
+  padding: 50px 0 172px 0;
 }
 .popular .info .desc {
   margin-top: 19px;
@@ -447,4 +447,36 @@ a {
   height: 6px;
   background-color: #1ebfc1;
   border-radius: 50%;
+}
+/* quantity            */
+.quantity {
+  background-color: #1ebfc1;
+  padding: 50px 0;
+  margin-top: 165px;
+}
+.quantity .body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 862px;
+  display: flex;
+  justify-content: space-between;
+}
+.quantity .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quantity .item .strong {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.quantity .item .desc {
+  display: inline-block;
+  margin-top: 11px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
 }
