@@ -18,7 +18,7 @@ body {
 .break {
   word-break: break-all; /*chưa dùng để ý*/
 }
-.lv3,
+
 .heading {
   margin-top: 18px;
   color: #0d1111;
@@ -29,10 +29,14 @@ body {
   font-size: 6.2rem;
 }
 .heading.lv2 {
+  margin-top: 18px;
   line-height: 1.33; /* 133.333% */
   font-size: 4.2rem;
 }
-.lv3 {
+.lv3 a {
+  margin-top: 18px;
+  color: #0d1111;
+  font-weight: 700;
   line-height: normal;
   margin-top: 0;
   font-size: 2.2rem;
@@ -48,6 +52,9 @@ body {
   border-radius: 14px;
   background: #1ebfc1;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.btn:hover {
+  opacity: 0.9;
 }
 .main-content {
   width: 1170px;
@@ -332,11 +339,13 @@ a {
   color: #767e7e;
   font-size: 1.2rem;
   font-weight: 700;
+  line-height: normal;
 }
 .feature .info .desc {
   margin-top: 18px;
   color: #767e7e;
   font-size: 1.8rem;
+  line-height: normal;
 }
 /* feature row */
 .feature .row {
@@ -638,6 +647,9 @@ a {
   color: #535353;
   font-size: 1.6rem;
   line-height: normal;
+}
+.footer .social .desc:hover {
+  opacity: 0.8;
 }
 .footer .column .desc .icon {
   margin-right: 9px;
